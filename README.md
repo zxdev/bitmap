@@ -14,13 +14,13 @@ const (
 
 func main() {
 
-  const 
+   
 	b := NewBitMap(nil, nil)
 	b.Set(Write)
 	b.Set(5)
 	b.Set(66)
 	fmt.Printf("%b %t %t\n", b, b.IsSet(Write), b.IsSet(63))
-  // &[100100 100] true false
+  	// &[100100 100] true false
 }
 
 ```
